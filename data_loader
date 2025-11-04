@@ -1,9 +1,0 @@
-from pyspark import SparkContext
-
-def load_titles(sc, file_path):
-    pass
-    #should be(page_id, title)
-
-def load_links(sc, file_path):
-    pass
-    #should be(from_page_id, [to_page_ids])
